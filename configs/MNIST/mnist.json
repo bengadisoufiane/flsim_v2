@@ -1,0 +1,33 @@
+{
+    "clients": {
+        "total": 5,
+        "per_round": 2,
+        "eps" : 0.5
+    },
+    "nodes": {
+        "total": 1,
+        "per_round": 1
+    },
+    "data": {
+        "loading": "static",
+        "partition": {
+            "size": 600
+        },
+        "IID": true
+    },
+    "federated_learning": {
+        "rounds": 10,
+        "target_accuracy": 0.99,
+        "task": "train",
+        "epochs": 5,
+        "batch_size": 10
+    },
+    "model": "MNIST",
+    "paths": {
+        "data": "./data",
+        "model": "./models"
+    },
+    "server": "basic",
+    "episodes": 2
+
+}

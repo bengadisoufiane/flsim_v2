@@ -1,0 +1,92 @@
+[INFO][00:40:33]: Booting basic server...
+[INFO][00:40:43]: Model: MNIST
+[INFO][00:40:43]: Saved global model: ./models/MNIST
+[INFO][00:40:43]: Booting basic node...
+[INFO][00:40:52]: Dataset size: 60000
+[INFO][00:40:52]: Loader: basic, IID: True
+[INFO][00:40:52]: Model: MNIST
+[INFO][00:40:52]: Saved node model: ./models/MNIST/node_0
+[INFO][00:40:52]: Total clients: 10
+[INFO][00:40:52]: Booting basic node...
+[INFO][00:41:02]: Dataset size: 60000
+[INFO][00:41:02]: Loader: basic, IID: True
+[INFO][00:41:02]: Model: MNIST
+[INFO][00:41:02]: Saved node model: ./models/MNIST/node_1
+[INFO][00:41:02]: Total clients: 10
+[INFO][00:41:02]: Training server: 2 rounds or 99.0% accuracy
+
+[INFO][00:41:02]: **** Round server 1/2 ****
+[INFO][00:41:02]: Training node : 2 rounds or 99.0% accuracy
+
+[INFO][00:41:02]: **** Round node 1 1/2 ****
+[INFO][00:41:02]: Training on client #4
+[INFO][00:41:02]: Reports recieved: 1
+[INFO][00:41:02]: Aggregating updates
+[INFO][00:41:02]: Saved node model: ./models/MNIST/node_1
+[INFO][00:41:13]: Average accuracy: 31.56%
+
+[INFO][00:41:13]: **** Round node 1 2/2 ****
+[INFO][00:41:13]: Training on client #8
+[INFO][00:41:13]: Reports recieved: 1
+[INFO][00:41:13]: Aggregating updates
+[INFO][00:41:13]: Saved node model: ./models/MNIST/node_1
+[INFO][00:41:24]: Average accuracy: 44.70%
+
+[INFO][00:41:24]: Training node : 2 rounds or 99.0% accuracy
+
+[INFO][00:41:24]: **** Round node 0 1/2 ****
+[INFO][00:41:24]: Training on client #0
+[INFO][00:41:24]: Reports recieved: 1
+[INFO][00:41:24]: Aggregating updates
+[INFO][00:41:24]: Saved node model: ./models/MNIST/node_0
+[INFO][00:41:35]: Average accuracy: 37.38%
+
+[INFO][00:41:35]: **** Round node 0 2/2 ****
+[INFO][00:41:35]: Training on client #5
+[INFO][00:41:35]: Reports recieved: 1
+[INFO][00:41:35]: Aggregating updates
+[INFO][00:41:35]: Saved node model: ./models/MNIST/node_0
+[INFO][00:41:46]: Average accuracy: 42.38%
+
+[INFO][00:41:46]: Reports recieved: 2
+[INFO][00:41:46]: Aggregating updates
+[INFO][00:41:46]: Saved global model: ./models/MNIST
+[INFO][00:41:57]: Average accuracy: 52.37%
+
+[INFO][00:41:57]: **** Round server 2/2 ****
+[INFO][00:41:57]: Training node : 2 rounds or 99.0% accuracy
+
+[INFO][00:41:57]: **** Round node 1 1/2 ****
+[INFO][00:41:57]: Training on client #5
+[INFO][00:41:57]: Reports recieved: 1
+[INFO][00:41:57]: Aggregating updates
+[INFO][00:41:57]: Saved node model: ./models/MNIST/node_1
+[INFO][00:42:08]: Average accuracy: 43.72%
+
+[INFO][00:42:08]: **** Round node 1 2/2 ****
+[INFO][00:42:08]: Training on client #0
+[INFO][00:42:08]: Reports recieved: 1
+[INFO][00:42:08]: Aggregating updates
+[INFO][00:42:08]: Saved node model: ./models/MNIST/node_1
+[INFO][00:42:19]: Average accuracy: 45.32%
+
+[INFO][00:42:19]: Training node : 2 rounds or 99.0% accuracy
+
+[INFO][00:42:19]: **** Round node 0 1/2 ****
+[INFO][00:42:19]: Training on client #8
+[INFO][00:42:19]: Reports recieved: 1
+[INFO][00:42:19]: Aggregating updates
+[INFO][00:42:19]: Saved node model: ./models/MNIST/node_0
+[INFO][00:42:31]: Average accuracy: 37.46%
+
+[INFO][00:42:31]: **** Round node 0 2/2 ****
+[INFO][00:42:31]: Training on client #4
+[INFO][00:42:31]: Reports recieved: 1
+[INFO][00:42:31]: Aggregating updates
+[INFO][00:42:31]: Saved node model: ./models/MNIST/node_0
+[INFO][00:42:42]: Average accuracy: 42.51%
+
+[INFO][00:42:42]: Reports recieved: 2
+[INFO][00:42:42]: Aggregating updates
+[INFO][00:42:42]: Saved global model: ./models/MNIST
+[INFO][00:42:53]: Average accuracy: 57.71%
