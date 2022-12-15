@@ -36,3 +36,7 @@ python run.py
 
 * `--config` (`-c`): path to the configuration file to be used.
 * `--log` (`-l`): level of logging info to be written to console, defaults to `INFO`.
+
+
+For more details :
+Hao Wang, Zakhary Kaplan, Di Niu, Baochun Li. "Optimizing Federated Learning on Non-IID Data with Reinforcement Learning," in the Proceedings of IEEE INFOCOM, Beijing, China, April 27-30, 2020.
